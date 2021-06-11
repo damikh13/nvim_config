@@ -27,7 +27,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 
-    " Plug 'sbdchd/neoformat'
+    Plug 'puremourning/vimspector'
+
+    " Plug 'pseewald/anyfold'
 
 call plug#end()
 

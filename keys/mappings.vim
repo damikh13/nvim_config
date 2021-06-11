@@ -59,4 +59,7 @@ nnoremap <C-x> :.d <CR>
 
 nmap <F8> :w % <bar> :!g++ -W -Wall -Wextra -pedantic -std=c++14 % -o %< && konsole --hold -e ./%< <CR>
 
-" Comment the code
+nmap <F5> :%y+ <CR>
+
+nmap<F9> zo
+nmap<F10> zf

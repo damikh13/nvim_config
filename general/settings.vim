@@ -58,3 +58,6 @@ cmap w!! w !sudo tee %y
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+set foldmethod=manual
+set foldcolumn=1
